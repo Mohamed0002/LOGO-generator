@@ -64,7 +64,7 @@
     J'ai décidé d'ajouter un, +1 ont mes correctes answers, car lorsqu'il compare les réponses de mon dictionnaire 
     avec les réponses de la requête pour la question : 'Which museum exhibits The Scream by Munch ?'
 
-Le programme m'affiche la mauvaise réponse : 
+    Le programme m'affiche la mauvaise réponse : 
 
     réponse du dictionnaire : ['https://dbpedia.org/resource/Munch_Museum', 'https://dbpedia.org/resource/National_Gallery_(Norway)']  
     réponse de la requête ['http://dbpedia.org/resource/Munch_Museum', 'http://dbpedia.org/resource/National_Gallery_(Norway)']
