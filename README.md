@@ -1,13 +1,13 @@
 
-## Etape 1: 
+## Etape 1: tokenisation 
 
     Tout d'abord, les mots de la question sont tokénisés et les mots vides sont supprimés :
 
     fonction qui permet  la segmentation du texte en mots
     def tokeneriser(questions)
 
-  ## Etape 2 : 
-    -Trouvez le mot interrogatif dans la question.
+  ## Etape 2 : Trouvez le mot interrogatif dans la question
+   
 
     fonction qui  consiste à rechercher des objets textuels (c'est-à-dire un mot, ou un groupe de mots)  
     catégorisables dans des classes telles que noms de personnes, noms d'organisation etc...   
@@ -31,7 +31,7 @@
 
     def keyword2(question,exps):
 
- ## Etape 3 :  
+ ## Etape 3 :  Recherche de la meilleure relation 
     Recherche de la meilleure relation dans `relations.txt` à partir des tokens et du mot interrogatif.
 
     # cette fonction se verra comparer chaque premier mot récupérer par la fonction extract_keywords extract_keywords 
@@ -39,8 +39,8 @@
     def Find_best_relation(question): 
 
 
- ## Etape 4 : 
-    Création de la requete SPARQL :
+ ## Etape 4 :  Création de la requete SPARQL 
+   
 
     # Permet d'effecter une requête SPARQL au serveur dbpedia
 
